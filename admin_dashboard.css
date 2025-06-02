@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    color: rgb(14, 13, 13);
+    border-bottom: 3.5px solid #D70383;
+}
+
+.header .logo img {
+    height: 60px;
+}
+
+.header .nav {
+    display: flex;
+    gap: 25px;
+}
+
+.header .nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.header .nav-link:hover {
+    background-color: #D70383;
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Header */
+header {
+    background-color: #f4f7f6;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #D70383;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 18px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 22px;
+    color: #1f2020;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #34495e;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #D70383;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #d537f5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: auto;
+}
